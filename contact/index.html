@@ -16,6 +16,17 @@
     <meta name="google-site-verification" content="pBWoGvVEP36FzzS4xIpoMejc5UKi3RKcxd9rWWcjiDg" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144253917-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-144253917-1');
+</script>
+
 
     <title>留言板 | FuXiukai</title>
 
@@ -178,17 +189,6 @@
       <i class="fas fa-envelope" style="zoom: 0.6;"></i>
       
       <span>留言板</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/Windows" class="waves-effect waves-light">
-      
-      <i class="fas fa-desktop" style="zoom: 0.6;"></i>
-      
-      <span>Windows</span>
     </a>
     
   </li>
@@ -365,17 +365,6 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/Windows" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-desktop"></i>
-			
-			Windows
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
 		<a href="/friends" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-link"></i>
@@ -534,7 +523,7 @@
                 <h2 id="畅所欲言"><a href="#畅所欲言" class="headerlink" title="畅所欲言"></a>畅所欲言</h2><hr>
 <p>在这里可以留下你的足迹，欢迎在下方留言，欢迎交换友链，一起交流学习！</p>
 <h2 id="友链"><a href="#友链" class="headerlink" title="友链"></a>友链</h2><hr>
-<p>Luckeyの友链信息</p>
+<p>Fuxiaokaiの友链信息</p>
 <p>博客名称: Fuxiaokaiの博客</p>
 <p>博客网址: <a href="https://xiaokai796.github.io/">https://xiaokai796.github.io/</a></p>
 <p>博客头像: <a target="_blank" rel="noopener" href="https://s1.ax1x.com/2022/05/17/OINMBd.jpg">https://s1.ax1x.com/2022/05/17/OINMBd.jpg</a></p>
@@ -856,6 +845,52 @@ new Valine({
             
 			
 			
+            <style>
+    .mvaline-card {
+        margin: 1.5rem auto;
+    }
+
+    .mvaline-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+</style>
+
+<div class="card mvaline-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="mvcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/minivaline/MiniValine.js"></script>
+<script>
+    new MiniValine({
+        el: '#mvcomments',
+        appId: 'nnfeRtVsVlLyBGIUwfr1Fh8S-gzGzoHsz',
+        appKey: 'Yk1qeBJhbNzmHCyIMggbyFt6',
+        mode: 'DesertsP',
+        placeholder: '快来评论吧~',
+        pathname: window.location.pathname,
+        lang: 'zh-cn',
+        adminEmailMd5: '46606772953bed0812789d6dc955614e',
+        tagMeta: ["博主", "小伙伴", "访客"],
+        master: ["46606772953bed0812789d6dc955614e"],
+        friends: ["cb3e577ff029d6073400d5557effd41f"],
+        math: true,
+        md: true,
+        enableQQ: true,
+        NoRecordIP: true,
+        visitor: true,
+        maxNest: 6,
+        pageSize: 6,
+        serverURLs: '',
+        emoticonUrl: ["https://cdn.jsdelivr.net/npm/alus@latest", "https://cdn.jsdelivr.net/gh/MiniValine/qq@latest", "https://cdn.jsdelivr.net/gh/MiniValine/Bilibilis@latest", "https://cdn.jsdelivr.net/gh/MiniValine/tieba@latest", "https://cdn.jsdelivr.net/gh/MiniValine/twemoji@latest", "https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest"],
+    });
+</script>
+
+            
 
             
 
@@ -924,9 +959,9 @@ new Valine({
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2200-2022</span>
+                <span id="year">2022</span>
             
-            <span id="year">2200</span>
+            <span id="year">2022</span>
             <a href="/about" target="_blank">Fuxiaokai</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
@@ -962,7 +997,7 @@ new Valine({
                     var days = hours * 24;
                     var years = days * 365;
                     var today = new Date();
-                    var startYear = "2200";
+                    var startYear = "2022";
                     var startMonth = "5";
                     var startDate = "20";
                     var startHour = "0";
@@ -1242,11 +1277,14 @@ $(function () {
 
 	
     
-
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
     
 
     
-    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
+
     
 
     
